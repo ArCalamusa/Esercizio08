@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 0 5px 10px #c2c2c2;
+    width: 100%;
+}
+
+header div i {
+    padding: 20px;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    /*position: fixed; sfasa tutto*/
+}
+
+#logo {
+    height: 80%;
+}
+
+#topbar-icons {
+    display: flex;
+    cursor: pointer;
+}
+
+.btn1{  /*bottone*/
+    display: flex;
+    padding: 1em 0.5em 0 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
+    font-size: 12px;
+    transition: 0.2s;
+    background:white;
+    cursor:pointer;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 30px;
+    border:solid 1px;   
+    height: 25px;
+    margin-top: 8px;
+}
+
+.btn1:hover{ /*bottone*/
+    color: white;
+    background: black;
+}
+
+main {
+    display: flex;
+    border: 1px solid black;
+    height: 120vh;
+    width: 59%;     /*perchè non 60% se la section + 40%?*/
+}
+
+.content {
+    display: flex;
+}
+
+.paracontent {
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+.paracontent span {
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.paracontent span:hover {
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(13, 12, 34, 0.05);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 1px solid red;
+    height: 120vh;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    border: 1px solid green;
+}
+
+.icon-icon {
+    display: flex;
+    margin-top: 40px;
+    font-size: 30px;
+    /*padding: 15px;*/
+} 
+
+.icon-icon span {
+    padding: 10px;
+}
+
+/*.box1 p {
+    display: flex;
+    text-align: center;
+    margin-top: 130px;
+}*/
+
+
+#box2 {
+    width: 100%;
+    height: 50%;
+    border: 1px solid rgb(17, 0, 255);
+}
