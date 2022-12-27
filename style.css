@@ -313,6 +313,7 @@ a {
     height: 30px;
     object-fit: cover;
     border-radius: 10%;
+    margin-bottom: 10px;
 }
 
 .paracontent-bis figcaption {
@@ -326,4 +327,10 @@ a {
 .paracontent-bis p {
     margin: 0 0 5px 0;
     color: #676767;
+}
+
+.card {
+    float: right;
+    width: 200px;
+    height: auto;
 }
